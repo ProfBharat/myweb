@@ -1,0 +1,31 @@
+p{
+    margin :5%;
+    border: 2px dotted blueviolet;
+    border-color: skyblue;
+    
+
+}
+ul{
+    float:right;
+    list-style: none; 
+    margin-top: 25px;
+    margin-right: 5px;
+  }
+  
+  ul li{
+    display: inline-block;
+  
+  }
+  
+  ul li a { 
+    text-decoration: none;
+    color:rgb(239, 12, 12);
+    padding: 5px 20px;
+    border: 1px solid #1533e03a;
+    transition: 0.6s ease;
+  } 
+  
+  ul li a:hover{
+    background-color: lightgreen;
+  
+  }

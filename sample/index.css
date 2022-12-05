@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.menubar{
+   
+    background-color:rgb(6, 6, 48);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 5px ;
+}
+.menubar ul{
+    list-style: none;
+    display:flex;
+}
+.menubar ul li{
+    padding: 10px 30px;
+}
+.menubar ul li a{
+    color :white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+
+}
+.menubar ul li a:hover{
+    color:white;
+}
+.dropdown-menu{
+    display: block;
+    position:absolute;
+    left:0;
+    top:100%;
+    background-color: azure;
+
+}
+.dropdown-menu ul{
+    display :block;
+    margin:10px;
+}
+.dropdown-menu ul li{
+    width: 150px;
+    padding:10px;
+}
